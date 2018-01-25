@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/heading_left_margin"
+        android:layout_marginRight="@dimen/heading_left_margin"
+        android:layout_weight="2.03"
+        android:background="@drawable/heading_bg"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.e2esp.buxlypaints.calculator.views.RalewayBoldTextView
+            style="@style/AudioFileInfoOverlayText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:background="@color/color_bg"
+            android:gravity="center"
+            android:text="@string/select_paint"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colortext"
+            android:textSize="@dimen/heading_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2.16"
+        android:background="@color/color_bg"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.e2esp.buxlypaints.calculator.views.RalewayLightTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/label_filed_margin"
+            android:layout_marginRight="5dp"
+            android:layout_weight="2.1"
+            android:background="@color/color_bg"
+            android:gravity="center|right"
+            android:text="@string/paint_c"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/heading_text_size" />
+
+        <com.e2esp.buxlypaints.calculator.views.RalewayMediumTextView
+            android:id="@+id/text_view_paint_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/label_filed_margin"
+            android:layout_weight="1"
+            android:allowUndo="false"
+            android:autoText="false"
+            android:background="@drawable/button_shape"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textColor="@color/colortext"
+            android:textSize="@dimen/heading_text_size" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/grid_view_paints"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="0.93"
+        android:background="@drawable/color_bg_gradient"
+        android:gravity="center"
+        android:horizontalSpacing="0dip"
+        android:numColumns="2"
+        android:verticalScrollbarPosition="left"
+        android:verticalSpacing="0dip" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2.01"
+        android:background="@color/color_bg"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:id="@+id/view_back"
+            android:layout_width="@dimen/next_button"
+            android:layout_height="@dimen/next_button"
+            android:background="@drawable/forward_button_shape"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:rotation="180">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="3dp"
+                android:src="@drawable/next" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:background="@color/color_bg"
+            android:gravity="bottom|right"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/view_next"
+                android:layout_width="@dimen/next_button"
+                android:layout_height="@dimen/next_button"
+                android:background="@drawable/forward_button_shape"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="12dp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:src="@drawable/next" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

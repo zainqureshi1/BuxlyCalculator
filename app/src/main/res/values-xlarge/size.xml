@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="next_button">120dp</dimen>
+    <dimen name="heading_text_size">42sp</dimen>
+    <dimen name="heading_left_margin">80dp</dimen>
+    <dimen name="label_text_Size">42sp</dimen>
+    <dimen name="output_label_text_Size">51sp</dimen>
+    <dimen name="label_filed_margin">80dp</dimen>
+    <!-- Paint Class Multi !-->
+    <dimen name="image_size_hight">270dp</dimen>
+    <dimen name="image_size_width">270dp</dimen>
+<!-- Main Activity Class Multi !-->
+    <dimen name="main_button_text_size">39sp</dimen>
+    <dimen name="main_button_top_margin">15dp</dimen>
+    <dimen name="main_name_top_margin">50dp</dimen>
+    <dimen name="name_top_margin">70dp</dimen>
+    <!-- Calculator Class Multi !-->
+    <dimen name="calculate_button_padding">27dp</dimen>
+    <dimen name="calculate_button_text_size">40sp</dimen>
+    <dimen name="dec_text_size">20sp</dimen>
+    <!-- Result Class Multi !-->
+    <dimen name="result_text_size">80sp</dimen>
+    <dimen name="result_dec_text_size">15sp</dimen>
+</resources>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo_bg"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/buxly_band_bg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/heading_left_margin"
+            android:layout_marginRight="@dimen/heading_left_margin"
+            android:layout_marginTop="10dp"
+            android:layout_weight="2.01"
+            android:background="@drawable/heading_bg"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.e2esp.buxlypaints.calculator.views.RalewayBoldTextView
+                style="@style/AudioFileInfoOverlayText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:background="@color/color_bg"
+                android:gravity="center"
+                android:text="@string/paint_calculator"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colortext"
+                android:textSize="@dimen/heading_text_size" />
+        </LinearLayout>
+
+        <com.e2esp.buxlypaints.calculator.views.RalewayLightTextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2.3"
+            android:background="@color/color_bg"
+            android:gravity="center"
+            android:text="@string/select_option"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/heading_text_size" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1.4"
+            android:background="@color/color_bg"
+            android:orientation="vertical"
+            android:paddingBottom="10dp">
+
+            <com.e2esp.buxlypaints.calculator.views.RalewayLightButton
+                android:id="@+id/button_ceiling"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:stateListAnimator="@null"
+                android:text="@string/ceiling"
+                android:textColor="@color/colortext"
+                android:textSize="@dimen/main_button_text_size" />
+
+            <com.e2esp.buxlypaints.calculator.views.RalewayLightButton
+                android:id="@+id/button_exterior_walls"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/main_button_top_margin"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:stateListAnimator="@null"
+                android:text="@string/exterior_walls"
+                android:textColor="@color/colortext"
+                android:textSize="@dimen/main_button_text_size" />
+
+            <com.e2esp.buxlypaints.calculator.views.RalewayLightButton
+                android:id="@+id/button_interior_walls"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/main_button_top_margin"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:stateListAnimator="@null"
+                android:text="@string/interior_walls"
+                android:textColor="@color/colortext"
+                android:textSize="@dimen/main_button_text_size" />
+
+            <com.e2esp.buxlypaints.calculator.views.RalewayLightButton
+                android:id="@+id/button_doors"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/main_button_top_margin"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:stateListAnimator="@null"
+                android:text="@string/doors"
+                android:textColor="@color/colortext"
+                android:textSize="@dimen/main_button_text_size" />
+
+            <com.e2esp.buxlypaints.calculator.views.RalewayLightButton
+                android:id="@+id/button_windows"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/main_button_top_margin"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:stateListAnimator="@null"
+                android:text="@string/windows"
+                android:textColor="@color/colortext"
+                android:textSize="@dimen/main_button_text_size" />
+
+            <com.e2esp.buxlypaints.calculator.views.RalewayLightButton
+                android:id="@+id/button_wood_finishes"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/main_button_top_margin"
+                android:layout_weight="1"
+                android:background="@drawable/button_shape"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:stateListAnimator="@null"
+                android:text="@string/wood_finishes"
+                android:textColor="@color/colortext"
+                android:textSize="@dimen/main_button_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2.13"
+            android:background="@color/color_bg"
+            android:gravity="bottom|right"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:id="@+id/view_next"
+                android:layout_width="@dimen/next_button"
+                android:layout_height="@dimen/next_button"
+                android:background="@drawable/forward_button_shape"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="12dp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="3dp"
+                    android:src="@drawable/next" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

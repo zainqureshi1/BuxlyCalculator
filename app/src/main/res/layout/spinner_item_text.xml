@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.e2esp.buxlypaints.calculator.views.RalewayRegularTextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/heading_text_size"
+    android:gravity="left"
+    android:textColor="#fff"
+    android:ellipsize="end"
+    android:maxLines="1"
+    android:padding="5dip" />

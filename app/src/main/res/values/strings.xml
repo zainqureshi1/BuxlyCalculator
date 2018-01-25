@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Buxly Calculator</string>
+
+    <string name="paint_calculator">Paint Calculator</string>
+    <string name="select_option">Select Option</string>
+    <string name="select_paint">Select Paint</string>
+
+    <string name="paint_c">Paint:</string>
+    <string name="area_of_c">Area of:</string>
+    <string name="calculator">Calculator</string>
+    <string name="calculate">Calculate</string>
+    <string name="result">Result</string>
+
+    <string name="paint__">Paint </string>
+    <string name="area_of__">Area of </string>
+    <string name="length__">Length </string>
+    <string name="width__">Width </string>
+    <string name="windows__">Windows </string>
+    <string name="no_of_coats__">No. of Coats </string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_paint__select">Paint_Select</string>
+    <string name="title_activity_calculator">Calculator</string>
+    <string name="title_activity_result">Result</string>
+    <string-array name="label">
+        <item>Array Item One</item>
+        <item>Array Item Two</item>
+    </string-array>
+
+    <string name="ceiling">Ceiling</string>
+    <string name="exterior_walls">Exterior Walls</string>
+    <string name="interior_walls">Interior Walls</string>
+    <string name="doors">Doors</string>
+    <string name="windows">Windows</string>
+    <string name="wood_finishes">Wood Finishes</string>
+
+    <string name="walls_sides">Walls Sides</string>
+    <string name="recommended_coats_c">Recommended coats:</string>
+    <string name="no_of_coats">No. of Coats</string>
+    <string name="no_of_door">No. of Door</string>
+    <string name="length">Length</string>
+    <string name="width">Width</string>
+    <string name="dimensions">Dimensions</string>
+    <string name="total_area">Total Area</string>
+
+    <string name="no_of_doors">No. of Doors</string>
+    <string name="no_of_windows">No. of Windows</string>
+
+    <string name="hint_recommended_coats">Recommended coats: 2–3</string>
+    <string name="description_area_calculation">(* The wall dimensions are being multiplied by 3 to calculate the area of the room for interior walls.)</string>
+    <string name="description_result">The given result is an approximation of the paint estimation.</string>
+
+    <string name="please_enter_valid_value">Please Enter Valid Value…</string>
+    <string name="please_enter_valid_width">Please Enter Valid Width…</string>
+    <string name="please_enter_value">Please Enter Value…</string>
+    <string name="please_enter_width">Please Enter Width…</string>
+
+    <string name="sample_result_price">18.36 Liter(s)</string>
+    <string name="sample_price">Rs: 2406.46</string>
+
+</resources>

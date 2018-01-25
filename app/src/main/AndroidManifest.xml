@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.e2esp.buxlypaints.calculator" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.e2esp.buxlypaints.calculator.activities.MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.e2esp.buxlypaints.calculator.activities.SelectPaintActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_paint__select"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.e2esp.buxlypaints.calculator.activities.CalculatorActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_calculator"
+            android:windowSoftInputMode="adjustPan"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.e2esp.buxlypaints.calculator.activities.ResultActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_result"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="ab0328d1f8aeb67ac9441a3c9296bf906233827e" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

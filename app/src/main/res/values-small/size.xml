@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="next_button">50dp</dimen>
+    <dimen name="heading_text_size">20sp</dimen>
+    <dimen name="heading_left_margin">1dp</dimen>
+    <!-- Paint Class Multi !-->
+    <dimen name="image_size_hight">140dp</dimen>
+    <dimen name="image_size_width">140dp</dimen>
+    <!-- Main Activity Class Multi !-->
+    <dimen name="main_button_text_size">29sp</dimen>
+    <dimen name="main_button_top_margin">4dp</dimen>
+    <dimen name="main_name_top_margin">50dp</dimen>
+    <dimen name="name_top_margin">70dp</dimen>
+    <!-- Calculator Class Multi !-->
+    <dimen name="calculate_button_padding">7dp</dimen>
+    <!-- Result Class Multi !-->
+    <dimen name="result_text_size">20sp</dimen>
+    <dimen name="result_dec_text_size">20sp</dimen>
+</resources>
